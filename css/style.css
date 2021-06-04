@@ -1,0 +1,303 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* Main Styling */
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+} 
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utilities */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-pr {
+  color: #781D36;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn-dark {
+  display: inline-block;
+  background-color: #781D36;
+  color: bisque;
+  padding: 13px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-light {
+  display: inline-block;
+  background-color: bisque ;
+  color: #781D36;
+  padding: 13px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.btn-light:hover {
+  background: #781D36;
+  color: bisque;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-pr {
+  background: bisque;
+  color: #781D36;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+/* Padding */
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: #781D36;
+  color: antiquewhite;
+  overflow: auto;
+}
+
+#navbar a {
+  color: antiquewhite;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+  /* padding-top: 20px; */
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.curent {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+    background: url(/img/Foto-1.jpeg) center center/cover no-repeat;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase h1 {
+  color: bisque;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+#showcase h1 .text-pr {
+  color: #781D36;
+}
+
+#showcase .showcase-content  p {
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 450px;
+}
+
+ .info-img {
+  float:left;
+  width: 50%;
+  background: url(/img/Foto-2.jpeg) ;
+  background-size: contain;
+  min-height: 100%;
+}
+
+ 
+.info-text {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 30px 30px;
+  overflow: hidden;
+}
+
+.info-text p {
+  padding-bottom: 20px;
+}
+
+/* Features */
+
+
+.box {
+  float: left;
+  width: 33.3%;
+  height: 300px;
+  padding:50px;
+  text-align: center;
+} 
+/* About info */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding-top: 40px;
+}
+
+#testimonials {
+  height: 100%;
+  background: url(/img/roses.jfif) no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+#testimonials .testimonial img {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+
+/* Contact */
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+
+.form-wrap h1 {
+padding-top: 20px;
+font-size: 40px;
+}
+.form-wrap .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+.form-wrap .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+
+.form-wrap .form-group input:focus,
+.form-wrap .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+
+}
+
+
+
+.form-wrap p {
+  font-size: 18px;
+}
+ .form-wrap {
+   padding-bottom: 20px;
+ }
